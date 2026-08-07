@@ -6,5 +6,5 @@ import react from "@vitejs/plugin-react";
 // github.com/tuusuario/barberia-central, poné "/barberia-central/").
 export default defineConfig({
   plugins: [react()],
-  base: "/NOMBRE-DEL-REPO/",
+  base: "/test1/",
 });
