@@ -90,4 +90,4 @@ Cada nuevo push a `main` actualiza el sitio automáticamente.
 npm run build
 ```
 
-Genera la carpeta `dist/` lista para subir a cualquier hosting estático.
+Genera la carpeta `dist/` lista para subir a cualquier hosting estático. 
