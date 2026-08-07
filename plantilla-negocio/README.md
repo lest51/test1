@@ -42,6 +42,20 @@ Opciones gratuitas:
    adelante querés dominio propio, lo comprás aparte y lo apuntás desde el
    panel del hosting.
 
+## Publicar en GitHub Pages
+
+1. En `vite.config.js`, reemplazá `NOMBRE-DEL-REPO` por el nombre exacto de
+   tu repositorio de GitHub.
+2. Subí todo (incluida la carpeta `.github`) a tu repositorio.
+3. En GitHub, andá a **Settings → Pages** del repositorio.
+4. En "Source" elegí **GitHub Actions** (no "Deploy from a branch").
+5. Hacé cualquier commit nuevo en `main` (o esperá al primero) — el workflow
+   `.github/workflows/deploy.yml` compila y publica solo.
+6. En **Settings → Pages** te va a aparecer la URL pública, algo como
+   `https://tuusuario.github.io/NOMBRE-DEL-REPO/`.
+
+Cada nuevo push a `main` actualiza el sitio automáticamente.
+
 ## Build de producción
 
 ```bash
